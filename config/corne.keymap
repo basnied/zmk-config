@@ -35,8 +35,8 @@
 // | SHFT |  Z  |  X  |   C |  D  |  V  |   |  K  |  H   |  ,  |  .  |  /  | SHFT |
 //                    | ESC | LWR | RET |   | SPC | RSE  | ESC |
                         bindings = <
-   &kp TAB   &kp Q      &kp W      &kp F       &kp P       &kp B   &kp J &kp L       &kp U       &kp Y        &kp SEMI   &kp ESC
-   &kp LCTRL &mt LGUI A &mt LALT R &mt LCTRL S &mt LSHFT T &kp G   &kp M &mt LSHFT N &mt LCTRL E &mt LALT I   &mt LGUI O &kp SQT
+   &kp ESC   &kp Q      &kp W      &kp F       &kp P       &kp B   &kp J &kp L       &kp U       &kp Y        &kp SEMI   &kp EQUAL
+   &kp LBKT  &mt LGUI A &mt LALT R &mt LCTRL S &mt LSHFT T &kp G   &kp M &mt LSHFT N &mt LCTRL E &mt LALT I   &mt LGUI O &kp SQT
    &kp LSHFT &kp Z      &mt RALT X &kp C       &kp D       &kp V   &kp K &kp H       &kp COMMA   &mt RALT DOT &kp FSLH   &kp RSHFT
                                    &lt 4 ESC &lt 3 TAB &kp SPACE   &lt 2 RET &lt 1 BSPC &kp DEL
                         >;
@@ -45,7 +45,7 @@
                 num_layer {
                         bindings = <
    &kp TAB   &kp LBKT   &kp N7 &kp N8 &kp N9 &kp RBKT    &trans &trans &trans &trans &trans &trans
-   &trans    &kp SEMI   &kp N4 &kp N5 &kp N6 &kp EQUAL   &trans &trans &trans &trans &trans &trans
+   &kp RBKT  &kp SEMI   &kp N4 &kp N5 &kp N6 &kp EQUAL   &trans &trans &trans &trans &trans &trans
    &kp LSHFT &kp GRAVE  &kp N1 &kp N2 &kp N3 &kp BSLH    &trans &trans &trans &trans &trans &trans
                         &kp DOT &kp N0 &kp MINUS         &trans  &trans   &trans
                         >;
